@@ -27,7 +27,7 @@
   }
 }
 
-@for $i from 1 through 18 {
+@for $i from 1 through 100 {
   .techs__link:nth-child(#{$i}n) {
     animation-delay: #{$i * 0.1}s;
   }

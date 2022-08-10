@@ -14,6 +14,7 @@ export default function Portfolio({ innerRef }) {
     useInView(inViewOptions);
   const { ref: headingUnderlineRef, inView: headingUnderlineInView } =
     useInView(inViewOptions);
+  const { ref: projectRef, inView: projectInView } = useInView(inViewOptions);
 
   const [modalShow, setModalShow] = useState(false);
   const [projectState, setProjectState] = useState();
@@ -145,7 +146,13 @@ export default function Portfolio({ innerRef }) {
         ></div>
         <div className={style.projects}>
           {projects.map((item) => (
-            <div className={style.projects__card} key={item.heading}>
+            <div
+              ref={projectRef}
+              className={`${style.projects__card} ${
+                projectInView ? style.animateProject : ""
+              }`}
+              key={item.heading}
+            >
               <img
                 src={require("../../images/projectImages/" +
                   item.imgFolder +
