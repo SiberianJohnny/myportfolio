@@ -1,0 +1,39 @@
+.navbar {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 10px 0;
+  display: flex;
+  list-style-type: none;
+  &__wrapper {
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  &__item {
+    margin-right: 50px;
+    &:first-child {
+      margin-left: 50px;
+    }
+  }
+  &__link {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    &:hover {
+      transition: 0.5s;
+      color: rgb(221, 8, 54);
+    }
+    &:focus {
+      color: rgb(221, 8, 54);
+    }
+  }
+}
+.active {
+  transition: 0.5s;
+  color: rgb(221, 8, 54);
+}

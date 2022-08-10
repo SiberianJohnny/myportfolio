@@ -1,0 +1,45 @@
+.header {
+  height: 100vh;
+  background-image: url(../../images/spacebg.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__wrapper {
+    max-width: 1440px;
+  }
+  &__text {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 25px;
+    & span {
+      color: rgb(221, 8, 54);
+    }
+  }
+  &__button {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background: transparent;
+    border: 1px solid white;
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 12px 20px;
+    transition: 0.3s;
+    &:hover {
+      transition: 0.5s;
+      background-color: #04c2c9;
+      border-color: #04c2c9;
+    }
+    &:hover .header__button_icon {
+      transform: rotate(90deg);
+      transition: 0.3s;
+    }
+    &_icon {
+      margin-left: 10px;
+      margin-bottom: 1px;
+      transition: 0.3s;
+    }
+  }
+}
