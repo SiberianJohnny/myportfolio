@@ -26,15 +26,15 @@ export default function Portfolio({ innerRef }) {
       majorTechs: ["React, SCSS"],
       links: [
         {
-          source: "GitHub",
-          link: "https://github.com/SiberianJohnny/gb_vue_project",
+          source: "VIEW",
+          link: "https://myportfolio-eight-murex.vercel.app/#about",
         },
       ],
       description: [
-        "Мой личный сайт, на котором вы сейчас находитесь :)",
+        "Мой сайт-портфолио, на котором вы сейчас находитесь :)",
         <br />,
         <br />,
-        "Думаю, эта работа - хорошая демонстрация моих навыков, которую стоит добавить в портфолио.",
+        "Думаю, эта работа так же подходит для демонстрации моих навыков. Всё написано без использования сторонних пакетов, в том числе модальные окна и слайдер. Не везде доволен получившимся дизайном, но, впрочем, я и не дизайнер ^^.",
       ],
     },
     {
@@ -73,7 +73,7 @@ export default function Portfolio({ innerRef }) {
       majorTechs: ["HTML", "SCSS"],
       links: [
         {
-          source: "VIEW SITE",
+          source: "VIEW",
           link: "https://siberianjohnny.github.io/",
         },
       ],
