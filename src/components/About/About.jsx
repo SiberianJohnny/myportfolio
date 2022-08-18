@@ -1,6 +1,6 @@
 import React from "react";
 import Technologies from "../Technologies/Technologies";
-import cat from "../../images/cat.jpg";
+import me from "../../images/me.jpg";
 import style from "./about.module.scss";
 import { useInView } from "react-intersection-observer";
 
@@ -24,7 +24,7 @@ export default function About({ innerRef }) {
           headingInView ? style.animateHeading : ""
         }`}
       >
-        About
+        Обо мне
       </h1>
       <div
         ref={headingUnderlineRef}
@@ -46,8 +46,8 @@ export default function About({ innerRef }) {
           останавливаться на достигнутом :)
         </p>
         <img
-          src={cat}
-          alt="myPhoto"
+          src={me}
+          alt="It's me!"
           ref={imageRef}
           className={`${style.about__image} ${
             imageInView ? style.animateImage : ""

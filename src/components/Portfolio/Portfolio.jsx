@@ -135,7 +135,7 @@ export default function Portfolio({ innerRef }) {
             portfolioHeadingInView ? style.animateHeading : ""
           }`}
         >
-          Portfolio
+          Работы
         </h1>
 
         <div

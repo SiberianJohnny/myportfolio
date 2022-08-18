@@ -19,7 +19,7 @@ export default function Navbar({ activeElement }) {
               activeNav === "#home" ? style.active : ""
             }`}
           >
-            Home
+            Главная
           </a>
         </li>
         <li className={style.navbar__item}>
@@ -30,7 +30,7 @@ export default function Navbar({ activeElement }) {
               activeNav === "#about" ? style.active : ""
             }`}
           >
-            About
+            Обо мне
           </a>
         </li>
         <li className={style.navbar__item}>
@@ -41,7 +41,7 @@ export default function Navbar({ activeElement }) {
               activeNav === "#portfolio" ? style.active : ""
             }`}
           >
-            Portfolio
+            Работы
           </a>
         </li>
         <li className={style.navbar__item}>
@@ -52,7 +52,7 @@ export default function Navbar({ activeElement }) {
               activeNav === "#contacts" ? style.active : ""
             }`}
           >
-            Contacts
+            Контакты
           </a>
         </li>
       </ul>

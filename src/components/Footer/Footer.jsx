@@ -50,7 +50,7 @@ export default function Header() {
         ))}
       </ul>
       <p className={style.footer__copyright}>
-        Evgeniy Novakovskiy <span>&copy; {year.getFullYear()}</span>
+        Евгений Новаковский <span>&copy; {year.getFullYear()}</span>
       </p>
     </footer>
   );
