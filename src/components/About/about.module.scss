@@ -27,7 +27,8 @@
   }
 
   &__links {
-    margin-top: 40px;
+    margin-top: 80px;
+    opacity: 0;
 
     &_img {
       height: 50px;
@@ -59,15 +60,17 @@
   }
 
   &__image {
-    clip-path: polygon(50% 0%,
-        83% 12%,
-        100% 43%,
-        94% 78%,
-        68% 100%,
-        32% 100%,
-        6% 78%,
-        0% 43%,
-        17% 12%);
+    clip-path: polygon(
+      50% 0%,
+      83% 12%,
+      100% 43%,
+      94% 78%,
+      68% 100%,
+      32% 100%,
+      6% 78%,
+      0% 43%,
+      17% 12%
+    );
     width: 90%;
     height: auto;
     opacity: 0;
@@ -93,6 +96,10 @@
 
 .animateImage {
   animation: slideinImg 1s ease-in-out forwards;
+}
+
+.animateResume {
+  animation: showResume 1.5s ease-in forwards;
 }
 
 @keyframes slideInHeading {
@@ -131,7 +138,6 @@
 
 @keyframes slideinText {
   from {
-    opacity: 0;
     transform: translateX(-150px);
   }
 
@@ -150,5 +156,18 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes showResume {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -6,7 +6,7 @@ import Modal from "../Modal/Modal";
 
 export default function Portfolio({ innerRef }) {
   const inViewOptions = {
-    threshold: 1,
+    threshold: 0.05,
     triggerOnce: true,
   };
 
