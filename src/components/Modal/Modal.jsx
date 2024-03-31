@@ -53,7 +53,7 @@ const Modal = ({
               <p className={style.modal__description}>{projectDescription}</p>
             </main>
             <footer className={style.modal__footer}>
-              {links.map((link) => (
+              {links?.map((link) => (
                 <a
                   href={link.link}
                   target="blank"

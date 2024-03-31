@@ -41,11 +41,12 @@ export default function About({ innerRef }) {
               textInView ? style.animateText : ""
             }`}
           >
-            Мне всегда было интересно разбираться, как работает мир вокруг. И,
-            так как невозможно не замечать насколько дружелюбнее и красивее
-            стали сайты, я решил освоить Web разработку, в которую погружаюсь
-            уже два года, нахожу её очень увлекательной и не планирую
-            останавливаться на достигнутом :)
+            Являясь опытным фронтенд-разработчиком и активно изучая
+            веб-технологии, раз за разом выходя из зоны комфорта, я отчётливо
+            осознаю свою цель и свою потребность — создавать такие
+            пользовательские интерфейсы, которые будут не только функциональны,
+            но и будут радовать и вдохновлять всех и каждого, кто с ними
+            соприкоснётся.
           </p>
           <div
             ref={textRef}
@@ -57,6 +58,7 @@ export default function About({ innerRef }) {
               className={style.about__link}
               target="_blank"
               href="https://linkedin.com/in/evgeniy-novakovskiy-369208238"
+              rel="noreferrer"
             >
               <img
                 className={style.about__links_img}
@@ -67,6 +69,7 @@ export default function About({ innerRef }) {
               className={style.about__link}
               target="_blank"
               href="https://tomsk.hh.ru/resume/f07332d9ff09dfd1400039ed1f57325a7a6130"
+              rel="noreferrer"
             >
               <img
                 className={style.about__links_img}
@@ -78,6 +81,7 @@ export default function About({ innerRef }) {
               target="_blank"
               href={resume}
               download
+              rel="noreferrer"
             >
               <img
                 className={style.about__links_img}

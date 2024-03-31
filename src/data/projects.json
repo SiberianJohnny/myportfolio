@@ -1,0 +1,148 @@
+[
+  {
+    "background": "Loader",
+    "heading": "VT.Operator",
+    "imgFolder": "Operator",
+    "images": [
+      "Loader",
+      "Signup",
+      "Graph",
+      "Graph-1",
+      "Naveski",
+      "Mix",
+      "Earnings",
+      "Journal",
+      "QR",
+      "Reports",
+      "Filters"
+    ],
+    "majorTechs": ["React Native, Typescript, Redux Toolkit, REST API"],
+    "description": [
+      "Внутреннее приложение компании Supplement Group\n\nКоманда: Заказчик, Дизайнер, Бэкенд разработчик, Фронтенд разработчик, Тех лид.\n\nМного схожего с предыдущей работой - VT.Executor, только здесь кратно больше различного функционала и более сложные в реализации логика и визуал. В этом приложении, помимо всего того, что было в VT.Executor, реализованы свайпы на основных экранах, раскрывающиеся элементы, различные анимации, написанные вручную, диаграммы, кастомные бар чарты, возможность создания записи в журнале с использованием технологии speech to text и многое другое."
+    ]
+  },
+  {
+    "background": "Catalog",
+    "heading": "SGCatalog",
+    "imgFolder": "SGCatalog",
+    "images": ["Catalog", "ProductCard", "Cart", "KP"],
+    "majorTechs": ["jQuery", "JavaScript", "CSS"],
+    "links": [
+      {
+        "source": "Website",
+        "link": "https://supplement.group/catalog"
+      }
+    ],
+    "description": [
+      "Каталог компании Supplement Group\n\nНеобходимо было практически полностью переработать сервис. Сложность была в том, что код оказался жутким легаси, написанным на jQuery и выложенным в тильде. Пришлось перебирать полотно из тысяч строк плохо структурированного, устаревшего кода.\n\nДобавил скелетную анимацию загрузки, полностью переписал визуал в соответствии с новым дизайном, добавил адаптив, написал анимации, практически полностью переделал всю логику. К сожалению, осталось несколько небольших багов, на исправления которых не хватило времени. Поэтому они были подробно задокументированы и отправлены в отчёте для исправления в будущем."
+    ]
+  },
+  {
+    "background": "Loader",
+    "heading": "VT.Executor",
+    "imgFolder": "Executor",
+    "images": [
+      "Loader",
+      "Authorization",
+      "Typing",
+      "OrdersLists",
+      "OrdersListsInside",
+      "Scanning",
+      "Biodobavka",
+      "DeliveryTypesOpened",
+      "AdminSettings",
+      "AddingOperators"
+    ],
+    "majorTechs": ["React Native, Typescript, Redux Toolkit, REST API"],
+    "description": [
+      "Внутреннее приложение для проекта VITAMIN.TRADE\n\nКоманда: Заказчик, Дизайнер, Бэкенд разработчик, Фронтенд разработчик, Тех лид.\n\nСделал весь фронтенд. Помогал прорабатывать дизайн и бэкенд архитектуру проекта. Реализована вложенная многоуровневая навигация, множество вариантов использования модальных окон, фильтры, а так же возможность сканирования штрихкодов. Очень много работы с REST API, десятки методов от авторизации через сервис дозвона и до создания отдельных операторов внутри приложения. Отдельно отмечу реализацию подключения wifi принтера как через поиск устройств в сети, так и вручную, посредством ввода IP адреса. Полностью настроил и реализовал динамическую печать этикеток нужного формата."
+    ]
+  },
+  {
+    "background": "main",
+    "heading": "MyPortfolio",
+    "imgFolder": "myPortfolio",
+    "images": ["header"],
+    "majorTechs": ["React, SCSS"],
+    "links": [
+      {
+        "source": "Website",
+        "link": "https://myportfolio-eight-murex.vercel.app/#about"
+      }
+    ],
+    "description": [
+      "Мой сайт-портфолио, на котором вы сейчас находитесь :)\n\nДумаю, эта работа так же подходит для демонстрации моих навыков. Всё написано без использования сторонних пакетов, в том числе модальные окна и слайдер. Не везде доволен получившимся дизайном, но, впрочем, я и не дизайнер ^^."
+    ]
+  },
+  {
+    "background": "main",
+    "heading": "trueFitness",
+    "imgFolder": "trueFitness",
+    "images": [
+      "main",
+      "carousels",
+      "navBar",
+      "trainingCards",
+      "trainingPage",
+      "trainingPageMore"
+    ],
+    "majorTechs": ["React", "NodeJS", "SCSS"],
+    "links": [
+      {
+        "source": "GitHub",
+        "link": "https://github.com/Dubrovskiy40/trueFitness/tree/develop"
+      }
+    ],
+    "description": [
+      "Сайт-библиотека для помощи в занятиях фитнессом. Итоговый проект для завершения обучения в Geek Brains. React. Основная задача проекта - тренировка навыков командой разработки и agile разработки. В частности, пробовали такие методологии как Scrum и Scrumban.\n\nМоя работа: \nКарусель, карточка тренировки, раздел тренировок, страницу тренировки, навигацию в ЛК, общая информация в ЛК, функционал указанных компонентов и связь между ними, а так же между компонентами опросника (/survey) и Цели (в лк). Написал структуру БД для карусели и тренировок, прописал необходимые запросы для фетча."
+    ]
+  },
+  {
+    "background": "main",
+    "heading": "Shop",
+    "imgFolder": "Shop",
+    "images": ["main", "deals", "filter", "cart", "registration", "footer"],
+    "majorTechs": ["HTML", "SCSS"],
+    "links": [
+      {
+        "source": "Website",
+        "link": "https://siberianjohnny.github.io/"
+      }
+    ],
+    "description": [
+      "Один из первых учебных проектов. Страница онлайн магазина, на которой практиковались исключительно навыки вёрстки, в том числе adaptive и responsive"
+    ]
+  },
+  {
+    "background": "messages",
+    "heading": "Chat",
+    "imgFolder": "Chat",
+    "images": ["messages", "chats", "auth"],
+    "majorTechs": ["React", "NodeJS"],
+    "links": [
+      {
+        "source": "GitHub",
+        "link": "https://github.com/SiberianJohnny/react-chat"
+      }
+    ],
+    "description": [
+      "Чат, написанный на React с бэкендом на node express с возможностью создания новых чатов, отправки сообщений и авторизацией.\n\nТакже применяются: \nRedux, react Router, react testing library, redux persist, redux thunk, jest."
+    ]
+  },
+  {
+    "background": "chart",
+    "heading": "Chart",
+    "imgFolder": "Vuechart",
+    "images": ["dashboard", "list", "newcategory", "chart", "chartcancel"],
+    "majorTechs": ["Vue"],
+    "links": [
+      {
+        "source": "GitHub",
+        "link": "https://github.com/SiberianJohnny/gb_vue_project"
+      }
+    ],
+    "description": [
+      "Калькулятор расходов на Vue. Реализовано добавление новых расходов, привязанных к конкретным категориям, создание новых категорий, графическое отображение данных на диаграмме.\n\nИспользованы:\nVue, vue-chartjs, chart.js, Vuetify, Vuex."
+    ]
+  }
+]
