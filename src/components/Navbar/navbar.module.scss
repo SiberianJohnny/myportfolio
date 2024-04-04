@@ -4,6 +4,7 @@
   padding: 10px 0;
   display: flex;
   list-style-type: none;
+  justify-content: space-around;
   &__wrapper {
     background: #1b242f;
     border-bottom: 3px solid #04c2c9;
@@ -13,9 +14,9 @@
     z-index: 1;
   }
   &__item {
-    margin-right: 50px;
+    // margin-right: 50px;
     &:first-child {
-      margin-left: 50px;
+      // margin-left: 50px;
     }
   }
   &__link {
@@ -36,4 +37,20 @@
 .active {
   transition: 0.5s;
   color: rgb(221, 8, 54);
+}
+
+@media screen and (max-width: 460px) {
+  .navbar {
+    &__link {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navbar {
+    &__link {
+      font-size: 14px;
+    }
+  }
 }

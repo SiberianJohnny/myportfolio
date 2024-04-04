@@ -32,3 +32,11 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    &__img {
+      height: 80%;
+    }
+  }
+}

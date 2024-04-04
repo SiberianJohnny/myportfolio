@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  gap: 25px;
   &__wrapper {
     background: #1b242f;
     color: white;
@@ -13,7 +14,6 @@
   &__item {
     transition: 0.5s;
     background-color: #262f38;
-    margin-right: 25px;
     padding: 7px 15px 5px;
     &:hover {
       transition: 0.5s;
@@ -57,5 +57,17 @@
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    &__wrapper {
+      padding: 40px;
+    }
+    &__item {
+      width: 50px;
+      padding: 3px 7px 2px;
+    }
   }
 }
