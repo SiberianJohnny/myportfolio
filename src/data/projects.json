@@ -1,5 +1,21 @@
 [
   {
+    "background": "WholesaleCatalog",
+    "heading": "WholesaleCatalog",
+    "imgFolder": "WholesaleCatalog",
+    "images": ["WholesaleCatalog", "WholesaleCart", "WholesaleCommercial"],
+    "majorTechs": ["jQuery", "JavaScript", "CSS"],
+    "links": [
+      {
+        "source": "Website",
+        "link": "https://supplement.group/products/"
+      }
+    ],
+    "description": [
+      "Оптовый каталог компании Supplement Group\n\nОбновил внешний вид всех страниц для соответствия новому дизайну. В некоторых местах работал с функционалом: исправлял ошибки, добавлял новую логику. Переработал скачиваемый html файл с коммерческим предложением. Так же переработал мобильную версию сайта в соответствии с новым дизайном. Поправил планшетную версию. Она не предусмотрена дизайном, но сделал некоторые правки, чтобы интерфейс на промежуточных размерах экрана хотя бы не рассыпался."
+    ]
+  },
+  {
     "background": "Catalog",
     "heading": "SGCatalog",
     "imgFolder": "SGCatalog",
