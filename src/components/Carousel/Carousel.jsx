@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import style from "./carousel.module.scss";
 import Icon from "@mdi/react";
 import { mdiArrowRightBold, mdiArrowLeftBold } from "@mdi/js";
 
 const CarouselComp = ({ imgFolder, images }) => {
   const [index, setIndex] = useState(0);
+  const [loadedImages, setLoadedImages] = useState([]);
 
   const slideRight = () => {
     setIndex((index + 1) % images.length);
@@ -12,12 +13,19 @@ const CarouselComp = ({ imgFolder, images }) => {
 
   const slideLeft = () => {
     const nextIndex = index - 1;
-    if (nextIndex < 0) {
-      setIndex(images.length - 1);
-    } else {
-      setIndex(nextIndex);
-    }
+    setIndex(nextIndex < 0 ? images.length - 1 : nextIndex);
   };
+
+  useEffect(() => {
+    const imgs = images.map((imgName) =>
+      require(`../../images/projectImages/${imgFolder}/${imgName}.jpg`)
+    );
+    setLoadedImages(imgs);
+  }, [imgFolder, images]);
+
+  if (loadedImages.length === 0) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className={style.carousel}>
@@ -36,7 +44,7 @@ const CarouselComp = ({ imgFolder, images }) => {
           images[index] +
           ".jpg")}
         className={style.carousel__img}
-        alt=""
+        alt="Иллюстрация проекта"
       />
       <button onClick={slideRight} className={style.carousel__btn}>
         <Icon
