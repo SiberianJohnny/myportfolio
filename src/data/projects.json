@@ -1,5 +1,37 @@
 [
   {
+    "background": "main1",
+    "heading": "TSFCWeb",
+    "imgFolder": "TSFCWeb",
+    "images": ["main1", "main11", "main2", "main3", "faq"],
+    "majorTechs": ["React", "Typescript", "React Router"],
+    "links": [
+      {
+        "source": "Website",
+        "link": "https://tsfc.io"
+      }
+    ],
+    "description": [
+      "Веб сервис TSFC\n\nРабота над ним не была приостановлена по решению заказчика, фактически сделан двустраничный сайт. Респонсив вёрстка под все возможные разрешения, плавный переход к секции при клике по навигации, параллакс, сложные анимации: каждый блок индивидуально анимирован, вплоть до анимации появления каждой буквы в блоке текста с эффектом 'матрицы'. Отдельная страница под легко масштабируемый, анимированный FAQ."
+    ]
+  },
+  {
+    "background": "TSFCBG",
+    "heading": "TSFC",
+    "imgFolder": "TSFCApp",
+    "images": ["main1", "main2", "reg1", "reg2", "stories", "wheel"],
+    "majorTechs": ["React Native", "Typescript", "REST API"],
+    "links": [
+      {
+        "source": "PlayMarket",
+        "link": "https://play.google.com/store/apps/details?id=com.liquiditysolutions.tsfc"
+      }
+    ],
+    "description": [
+      "Приложение TSFC\n\nМного рефакторинга и оптимизации логики. Переработка практически всего визуала, графиков. Фикс и доработка функционала рулетки. Обновление более, чем 500 иконок. Добавление пуш уведомлений и авторизации с возможностью входа по биометрии"
+    ]
+  },
+  {
     "background": "WholesaleCatalog",
     "heading": "WholesaleCatalog",
     "imgFolder": "WholesaleCatalog",
